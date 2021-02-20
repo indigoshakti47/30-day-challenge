@@ -1,0 +1,41 @@
+:root {
+  --base: #55ecdb;
+  --spacing: 20px;
+  --blur: 10px;
+}
+body {
+  text-align: center;
+  background: #0b0145e0;
+  color: #e9e9e9;
+  font-family: "Roboto";
+  font-size: 17px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  width: 500px;
+  height: 400px;
+}
+
+input {
+  width: 100px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+}
+
+.controls {
+
+  margin-bottom: 35px;
+}
+
+.hl {
+  color: var(--base);
+}
